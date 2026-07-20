@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: https://developer.fleetworthy.com/
+docs: https://developer.fleetworthy.com/
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  notes: >-
+    The Fleetworthy Compliance API is published through Azure API Management. Access requires signing
+    in with a CPSuite account on the developer portal, subscribing to a product, and requesting API
+    (subscription) keys. Requests to the gateway (api.fleetworthy.com) are authenticated with the
+    Azure API Management subscription key, passed by default in the Ocp-Apim-Subscription-Key request
+    header. Scope/permission model is governed by the product a subscription is granted against
+    (Read Reports, Asset Management, Driver Management).
+schemes:
+- name: subscriptionKey
+  type: apiKey
+  in: header
+  parameter_name: Ocp-Apim-Subscription-Key
+  description: >-
+    Azure API Management subscription key issued per product subscription from the developer portal.
+    Header name is the Azure APIM default; confirm against the portal's per-API "Try it" console.
+  source: https://developer.fleetworthy.com/
+onboarding:
+- Sign in with a CPSuite account at https://developer.fleetworthy.com/
+- Subscribe to a product and request API keys
+- Use the issued subscription key to call the gateway at https://api.fleetworthy.com
