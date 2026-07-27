@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://trust.fleetworthy.com/
+url: https://trust.fleetworthy.com/
+certifications:
+- SOC 2
+- ISO/IEC 27001:2022
+- PCI DSS v4.0.1
+third_party_grades:
+- ImmuniWeb: A
+- Qualys SSL Labs: A
+evidence:
+- source: https://trust.fleetworthy.com/
+  keywords:
+  - soc 2
+  - iso/iec 27001
+  - pci dss
+  - pci-dss
+  - trust center

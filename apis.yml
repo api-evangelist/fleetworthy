@@ -1,8 +1,16 @@
 aid: fleetworthy
 name: Fleetworthy
-description: Fleetworthy is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fleetworthy is a North American fleet compliance, safety, and technology company (Madison, WI)
+  that combines the Bestpass, Drivewyze, and related brands into a single integrated platform for
+  commercial trucking fleets. Its products span safety and compliance management (driver and asset
+  compliance with real-time alerts, Driver Qualification File management, DOT audit readiness, IFTA
+  and Form 2290 tax filing), unified toll management with nationwide coverage and dispute resolution,
+  and weigh-station bypass across 925+ inspection sites. Fleetworthy exposes a RESTful Compliance API
+  through an Azure API Management developer portal (developer.fleetworthy.com) with three published
+  APIs — Read Reports, Asset Management, and Driver Management — letting integrators retrieve report
+  data and files and create, read, update, and delete asset and driver records to automate compliance
+  workflows and sync with external systems.
 url: https://raw.githubusercontent.com/api-evangelist/fleetworthy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +18,119 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://fleetworthy.com/wp-content/uploads/2024/01/fleetworthy-logo.png
 tags:
 - Company
-apis: []
+- Fleet Management
+- Compliance
+- Transportation
+- Trucking
+- Safety
+- Toll Management
+- Weigh Station Bypass
+- Logistics
+apis:
+- name: Fleetworthy Read Reports API
+  description: >-
+    Read-only API to retrieve compliance reports and their associated files for your fleet, exposed
+    through the Fleetworthy Compliance API portal (Azure API Management).
+  humanURL: https://developer.fleetworthy.com/
+  baseURL: https://api.fleetworthy.com
+  tags:
+  - Reports
+  - Compliance
+  properties:
+  - type: Documentation
+    url: https://developer.fleetworthy.com/
+  - type: APIReference
+    url: https://developer.fleetworthy.com/apis
+- name: Fleetworthy Asset Management API
+  description: >-
+    Create, read, update, and delete asset (vehicle/equipment) information to sync fleet asset data
+    with external systems, exposed through the Fleetworthy Compliance API portal.
+  humanURL: https://developer.fleetworthy.com/
+  baseURL: https://api.fleetworthy.com
+  tags:
+  - Assets
+  - Fleet Management
+  properties:
+  - type: Documentation
+    url: https://developer.fleetworthy.com/
+  - type: APIReference
+    url: https://developer.fleetworthy.com/apis
+- name: Fleetworthy Driver Management API
+  description: >-
+    Create, read, update, and delete driver records and driver compliance data, exposed through the
+    Fleetworthy Compliance API portal.
+  humanURL: https://developer.fleetworthy.com/
+  baseURL: https://api.fleetworthy.com
+  tags:
+  - Drivers
+  - Compliance
+  properties:
+  - type: Documentation
+    url: https://developer.fleetworthy.com/
+  - type: APIReference
+    url: https://developer.fleetworthy.com/apis
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/fleetworthy-trust-center.yml
+- type: DomainSecurity
+  url: security/fleetworthy-domain-security.yml
 - type: Website
   url: https://fleetworthy.com/
+- type: DeveloperPortal
+  url: https://developer.fleetworthy.com/
+- type: Documentation
+  url: https://developer.fleetworthy.com/
+- type: APIReference
+  url: https://developer.fleetworthy.com/apis
+- type: GettingStarted
+  url: https://developer.fleetworthy.com/
+- type: Authentication
+  url: authentication/fleetworthy-authentication.yml
+- type: SignUp
+  url: https://fleetworthy.com/get-started/
+- type: Login
+  url: https://fleetworthy.com/login/
+- type: Pricing
+  url: https://fleetworthy.com/pricing/
+- type: Support
+  url: https://bestpass01.my.site.com/help/s/?language=en_US
+- type: Blog
+  url: https://fleetworthy.com/resources/
+- type: TermsOfService
+  url: https://fleetworthy.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://fleetworthy.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/fleetworthy
+- type: StatusPage
+  url: https://status.fleetworthy.com/
+- type: Compliance
+  url: https://trust.fleetworthy.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
