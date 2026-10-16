@@ -2,6 +2,13 @@
   "repo": "fleetworthy",
   "feeds": [
     {
+      "source": "https://fleetworthy.com/resources/",
+      "feed_url": "https://fleetworthy.com/feed/",
+      "title": "",
+      "saved": 3,
+      "method": "discovered"
+    },
+    {
       "source": "https://bestpass01.my.site.com/help/s/?language=en_US",
       "feed_url": "https://bestpass01.my.site.com/help/s/?language=en_US",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 3,
+  "fetched": "2026-10-10T13:15:00Z"
 }
