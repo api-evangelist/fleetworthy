@@ -5,8 +5,15 @@
       "source": "https://fleetworthy.com/resources/",
       "feed_url": "https://fleetworthy.com/feed/",
       "title": "",
-      "saved": 3,
+      "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://fleetworthy.com/feed/",
+      "feed_url": "https://fleetworthy.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://bestpass01.my.site.com/help/s/?language=en_US",
@@ -16,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 10,
+  "fetched": "2026-10-17T14:53:57Z"
 }
