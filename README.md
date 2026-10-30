@@ -64,6 +64,99 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Fleetworthy is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Fleetworthy is a North American fleet compliance, safety, and technology company (Madison, WI) that combines the Bestpass, Drivewyze, and related brands into a single integrated platform for commercial trucking fleets. Its products span safety and compliance management (driver and asset compliance with real-time alerts, Driver Qualification File management, DOT audit readiness, IFTA and Form 2290 tax filing), unified toll management with nationwide coverage and dispute resolution, and weigh-station bypass across 925+ inspection sites. Fleetworthy exposes a RESTful Compliance API through an Azure API Management developer portal (developer.fleetworthy.com) with three published APIs — Read Reports, Asset Management, and Driver Management — letting integrators retrieve report data and files and create, read, update, and delete asset and driver records to automate compliance workflows and sync with external systems.
 
-Backed by: insight-partners — https://fleetworthy.com/
+**Areas:** Company · Fleet Management · Compliance · Transportation · Trucking · Safety · Toll Management · Weigh Station Bypass · Logistics
+
+## Fleetworthy on APIs.io
+
+Everything profiled for Fleetworthy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fleetworthy/](https://apis.io/providers/fleetworthy/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Fleetworthy Read Reports API](https://apis.io/apis/fleetworthy/fleetworthy-read-reports-api/) — Read-only API to retrieve compliance reports and their associated files for your fleet, exposed through the Fleetworthy Compliance API portal (Azure API…
+- [Fleetworthy Asset Management API](https://apis.io/apis/fleetworthy/fleetworthy-asset-management-api/) — Create, read, update, and delete asset (vehicle/equipment) information to sync fleet asset data with external systems, exposed through the Fleetworthy…
+- [Fleetworthy Driver Management API](https://apis.io/apis/fleetworthy/fleetworthy-driver-management-api/) — Create, read, update, and delete driver records and driver compliance data, exposed through the Fleetworthy Compliance API portal.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Fleetworthy Authentication](https://apis.io/security/fleetworthy/fleetworthy-authentication/)
+- [Fleetworthy Domain Security](https://apis.io/security/fleetworthy/fleetworthy-domain-security/)
+- [Fleetworthy Trust Center](https://apis.io/security/fleetworthy/fleetworthy-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://fleetworthy.com/)
+- [Documentation](https://developer.fleetworthy.com/)
+- [Getting started](https://developer.fleetworthy.com/)
+- [API reference](https://developer.fleetworthy.com/apis)
+- [Pricing](https://fleetworthy.com/pricing/)
+- [Sign up](https://fleetworthy.com/get-started/)
+- [Support](https://bestpass01.my.site.com/help/s/?language=en_US)
+- [Blog](https://fleetworthy.com/resources/)
+- [Compliance](https://trust.fleetworthy.com/)
+- [Terms of service](https://fleetworthy.com/terms-and-conditions/)
+- [Privacy policy](https://fleetworthy.com/privacy-policy/)
+- [GitHub](https://github.com/fleetworthy)
+- [Status](https://status.fleetworthy.com/)
+
+## API Evangelist rating
+
+**Kin Score 34.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 60.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fleetworthy/](https://apis.io/providers/fleetworthy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fleetworthy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fleetworthy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
